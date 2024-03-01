@@ -1,6 +1,6 @@
-import { Theme } from "@radix-ui/themes";
 import "./globals.css";
 import "@repo/ui/styles.css";
+import { Theme } from "@radix-ui/themes";
 
 export default function RootLayout({
   children,

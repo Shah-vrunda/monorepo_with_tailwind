@@ -1,3 +1,3 @@
 export default function Page(): JSX.Element {
-  return <>talent page</>;
+  return <>Casting Page</>;
 }
