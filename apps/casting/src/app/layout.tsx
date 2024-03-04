@@ -1,5 +1,5 @@
 import "./globals.css";
-import "@repo/ui/styles.css";
+import "@repo/shared-components/styles.css";
 import { Theme } from "@radix-ui/themes";
 import { ThemeProvider } from "next-themes";
 

@@ -1,6 +1,6 @@
 import { Theme } from "@radix-ui/themes";
 import "./globals.css";
-import "@repo/ui/styles.css";
+import "@repo/shared-components/styles.css";
 import { ThemeProvider } from "next-themes";
 
 export default function RootLayout({
