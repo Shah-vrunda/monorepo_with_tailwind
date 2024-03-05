@@ -1,3 +1,3 @@
 export default function Page(): JSX.Element {
-  return <>sound stage page</>;
+  return <h1>sound stage page</h1>;
 }

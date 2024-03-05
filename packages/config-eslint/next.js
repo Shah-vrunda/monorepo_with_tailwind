@@ -1,4 +1,5 @@
 const { resolve } = require("node:path");
+const { env } = require("node:process");
 
 const project = resolve(process.cwd(), "tsconfig.json");
 
@@ -42,4 +43,5 @@ module.exports = {
   rules: {
     "import/no-default-export": "off",
   },
+  env: { jest: true },
 };

@@ -1,3 +1,5 @@
-export default function Page(): JSX.Element {
-  return <>Casting Page</>;
-}
+const Page = () => {
+  return <h1>Page</h1>;
+};
+
+export default Page;
